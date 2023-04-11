@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    
+        background-image:url(../images/gif2.gif);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:cover;
+        width:100vw;
+        height:100vh;
+        position: absolute;
+}
+
+
+.form{
+    width:350px;
+    padding:30px;
+    margin: auto;
+    margin-top:150px;
+    border-radius:20px;
+    text-align: center;
+    font-family: 'Creepster', cursive;
+    color: rgb(22, 9, 95);
+    background-color: rgba(135, 207, 235, 0.322);
+    letter-spacing:2px;
+
+}
+
+
+.textError{
+    color:red;
+    font-weight: 700;
+    font-family: 'Chakra Petch', sans-serif;
+    padding-top:10px;
+}
+
+.imgForm{
+    width:300px;
+    margin-bottom:20px;
+}
+
+
+.btnForm{
+    padding:10px;
+    margin-top:10px;
+    background-color:rgb(63, 188, 238);
+    color:rgb(22, 9, 95);
+    border-radius:10px;
+    border:solid 1px rgb(63, 188, 238);;
+    font-family: 'Creepster', cursive;
+    font-size:16px;
+    letter-spacing:2px;
+    cursor: pointer;
+}
+
+.btnForm:hover{
+    background-color: rgb(36, 4, 54);
+    color:rgb(63, 188, 238);
+    border-color:rgb(36, 4, 54);;
+}
+
+.controls{
+    width:100%;
+    margin-top:5px;
+    border: 1px solid rgb(0, 217, 255);
+    border-radius: 10px;
+    padding:10px;
+    background-color:rgb(6, 184, 216);
+    color:white;
+}
+
+.controls::placeholder{
+    color:white;
+}
+
+
+.divControls{
+    margin-top:20px;
+}
+
+
