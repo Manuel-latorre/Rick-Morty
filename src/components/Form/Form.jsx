@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import validation from './validation';
-import rickAndMorty from '../images/rick-and-morty.png'
+import rickAndMorty from '../assets/images/rick-and-morty.png'
 import './Form.css'
 
 const Form = ({ login }) => {
