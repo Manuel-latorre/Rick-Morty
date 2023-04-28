@@ -1,0 +1,16 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url('./components/assets/images/gi-bg.gif');
+    background-color:rgba(46, 46, 46, 0.541);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+
+}
+

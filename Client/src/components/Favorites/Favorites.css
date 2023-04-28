@@ -1,0 +1,37 @@
+.section-favorites{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.filters{
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-left:20px;
+}
+
+.filter{
+background-color: skyblue;
+color:rgb(8, 59, 80);
+border-color:rgb(8, 59, 80);
+letter-spacing:1px;
+font-family: Creepster;
+padding: 8px;
+margin:10px;
+border-radius:10px;
+margin-top: 10px;
+}
+
+.optionsFilter{
+    background-color:rgb(43, 89, 107);
+    margin:10px;
+    color: white;
+}
+
+
+@media (max-width:700px){
+    .filters{
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,67 @@
+
+.header{
+    background-color: rgba(0, 0, 0, 0.616);
+    background-blend-mode: darken;
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    display:flex;
+    justify-content: space-around;
+    padding:40px;
+}
+
+
+
+.btnLogOut{
+    width:40px;
+    height:40px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+.btnNav{
+    text-decoration: none;
+    margin-top: 40px;
+    font-family:Creepster;
+    font-size:24px;
+    color:skyblue;
+    
+}
+
+.btnNav:hover{
+    color:white;
+    transform: scale(1.1);
+    transition: 400ms;
+}
+
+.logo{
+    width:80px;
+    animation-name:girar;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+}
+
+
+
+.burguerBtn{
+    @media(min-width: 768px){
+        display:none
+    }
+}
+
+    
+
+
+
+
+@keyframes girar {
+    from{
+        transform:rotate(0deg);
+    }to{
+        transform:rotate(360deg)
+    }
+}
+
